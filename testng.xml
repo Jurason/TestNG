@@ -2,14 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="All Test Suite">
-    <groups>
-        <run>
-            <include name="Regression"/>
-        </run>
-    </groups>
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="Regression"/>-->
+<!--        </run>-->
+<!--    </groups>-->
 
 
     <test name="First test">
+    <parameter name="Parametr1" value="add some parametr"></parameter>
         <classes>
             <class name="smoke.Test1"></class>
             <class name="smoke.Test2"></class>
